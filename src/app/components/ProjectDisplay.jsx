@@ -1,4 +1,5 @@
 import gsap from "gsap";
+import Image from "next/image";
 import { useState } from "react";
 
 const ProjectDisplay = () => {
@@ -70,10 +71,12 @@ const ProjectDisplay = () => {
 
               {/* Card Content */}
               <div className="relative z-10  bg-black rounded-lg ">
-                <img
-                  className="w-full h-48 object-cover rounded-md mb-4"
+                <Image
+                  className="w-full h-52 object-cover rounded-md mb-4"
                   src={pro.Image}
-                  alt=""
+                  alt="image"
+                  height={208}
+                  width={208}
                 />
                 <span className="font-cosiAzure text-xl text-center flex items-center justify-center"> Title</span>
                 <p className="text-white font-serif text-center">{pro.description}</p>

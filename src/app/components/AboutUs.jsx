@@ -7,9 +7,9 @@ const About = () => {
             </div>
 
 
-            <p className=" font-serif text-sm  m-auto p-6 md:text-lg">Hi,I'm Ayush Gairola, a passionate Full-Stack developer and UI/UX Designer dedicated to crafting seamless and visually stunning digital experiences and turning ideas into reality. With a strong foundation in both front-end and back-end-developement .I Bridge the gap between functionality and design to deliever user focused solutions that not only work flawlessly but also look amazing . Over the years I've honed my skills in technologies like JavaScript,React,Node.js while also mastering design tools like Figma and Adobe Xd . 
+            <p className=" font-serif text-sm  m-auto p-6 md:text-lg"> Hi,I am Ayush Gairola, a passionate Full-Stack developer and UI/UX Designer dedicated to crafting seamless and visually stunning digital experiences and turning ideas into reality. With a strong foundation in both front-end and back-end-developement .I Bridge the gap between functionality and design to deliever user focused solutions that not only work flawlessly but also look amazing . Over the years I have honed my skills in technologies like JavaScript,React,Node.js while also mastering design tools like Figma and Adobe Xd . 
                 My approach is simple :I combine clean code , modern design , and strategic thinking to build websites and applications that drive results and make an impact.
-                Let's collaborate to create something extraordinary together! </p>
+                Let us collaborate to create something extraordinary together! </p>
 
 
 
