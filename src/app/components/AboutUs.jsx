@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 const About = () => {
     return <>
         <div className="max-h-screen h-screen text-center p-4 ">
             <div className='flex items-center justify-center mt-4 gap-6 flex-col'>
                 <h4 className='text-3xl font-cosiTimes'>ABOUT <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">ME</span></h4>
-                <img className='h-32 w-32 rounded-full' src="Myimage.png" alt="" />
+                <Image className='h-32 w-32 rounded-full' src="Myimage.png" alt="" />
             </div>
 
 

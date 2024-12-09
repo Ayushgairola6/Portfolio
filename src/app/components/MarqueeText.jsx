@@ -16,7 +16,7 @@ const MarqueeText = () => {
     }, [])
 
     return <div className="marquee-text inline-block  text-6xl font-cosiAzure   ">
-        <span> "Your <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">Vision</span> ","Our <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 "> Code</span> ".</span>
+        <span>Your<span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">Vision</span>,Our<span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 "> Code</span>.</span>
 
     </div>
 }
