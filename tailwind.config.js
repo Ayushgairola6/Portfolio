@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+        cosiAzure:['cosiAzure','sans-serif'],
+        cosiTimes:['cosiTimes','serif']
+      },
     },
   },
   plugins: [],
