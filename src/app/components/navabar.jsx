@@ -24,7 +24,7 @@ const Navbar = () => {
     return <>
         <header>
             <nav className="flex items-center justify-evenly font-cosiTimes  py-2">
-                <h1 className=" text-2xl logo">AyushGairola</h1>
+                <h1 className=" text-xl logo">AyushGairola</h1>
 
                 <a className='text-xs font-mono nav-item' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/ayush-gairola-7a536a327'>Contact</a>
                 <a className='text-xs font-mono nav-item' target='_blank' rel='noopener noreferrer'  href="https://www.linkedin.com/in/ayush-gairola-7a536a327">LinkedIn</a>

@@ -6,6 +6,7 @@ const ProjectDisplay = () => {
   const projects = [
     {
       id: "1",
+      title:'YIBEE',
       Image:
         "/Yibee.jpeg",
       description:
@@ -14,14 +15,16 @@ const ProjectDisplay = () => {
     },
     {
       id: "2",
+      title:"RESTful Api",
       Image:
-        "/Backend.jpeg",
+        "/Backend.jpg",
       description:
         "Backend RESTful API for YIBEE (mentioned above) used Mongodb , node.js and express.js for server and database management and integrated firebase in it to store media files like music and user images for secure and cloud data storage",
       link: "https://yibee.onrender.com"
     },
     {
       id: "3",
+      title:"Online store",
       Image:
         "/Store.jpg"
       ,
@@ -31,6 +34,7 @@ const ProjectDisplay = () => {
     },
     {
       id: "4",
+      title:"Awwwards dev portfolio",
       Image:
         "/DevPortfolio.jpg",
       description:
@@ -39,6 +43,7 @@ const ProjectDisplay = () => {
     },
     {
       id: "5",
+      title:"Crypto wallet design",
       Image:
         "/MoonEx.jpeg"
       ,
@@ -48,6 +53,7 @@ const ProjectDisplay = () => {
     },
     {
       id: "6",
+      title:"Earthling",
       Image:
         "/Earthling.jpeg"
       ,
@@ -81,7 +87,7 @@ const ProjectDisplay = () => {
                   height={208}
                   width={208}
                 />
-                <span className="font-cosiAzure text-xl text-center flex items-center justify-center"> Title</span>
+                <span className="font-cosiAzure text-xl text-center flex items-center justify-center"> {pro.title}</span>
                 <p className="text-white font-serif text-center">{pro.description}</p>
                 <button className="p-1 px-6 m-2 self-end text-black  bg-white font-bold font-mono rounded-full hover:bg-black/15 hover:text-white hover:border"> <a href={pro.link}>LIVE</a></button>
               </div>
