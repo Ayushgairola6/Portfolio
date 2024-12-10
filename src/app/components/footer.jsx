@@ -8,9 +8,9 @@ const Footer = () => {
     return <>
         <footer className='py-10 bg-white/5  flex items-center justify-evenly relative'>
             <div className='absolute right-24 top-4   inline-flex gap-4'>
-                <FaWhatsapp href="https://wa.me/918126687562"/>
-                <FaXTwitter href="https://x.com/AyushGairo14362" />
-                <FaInstagram  />
+               <a href="https://wa.me/918126687562"><FaWhatsapp />  </a> 
+               <a href="https://x.com/AyushGairo14362" > <FaXTwitter /></a> 
+               <a href=""><FaInstagram  /></a> 
             </div>
             <h6 className="font-cosiTimes font-bold text-xl"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 gradient-text">@Ayush</span></h6>
             <div className='flex  items-center justify-between py-2 px-12 w-72'>
