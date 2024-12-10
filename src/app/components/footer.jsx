@@ -4,7 +4,9 @@ import { FaXTwitter } from 'react-icons/fa6'
 const Footer = () => {
 
     function handleMail(){
-        window.location.href="mailto:ayushgairola2002@gmail.com?subject=Hello&body=Hi i want to collaborate with you.";
+        if(typeof window !== undefined){
+            window.location.href="mailto:ayushgairola2002@gmail.com?subject=Hello&body=Hi i want to collaborate with you.";
+         }
       }
 
     return <>
