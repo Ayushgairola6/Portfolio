@@ -7,57 +7,60 @@ const ProjectDisplay = () => {
     {
       id: "1",
       Image:
-        "/Earthling.jpeg",
+        "/Yibee.jpeg",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
-        link:"https://earthling.netlify.app"
+        "A full stack platform with the robust features of both a social networking platform and a music player , with features like creating , deleting posts , music streaming , personalized playlist creation , genre wise music and so on..",
+      link: "https://yibee-frontend.vercel.app"
     },
     {
       id: "2",
       Image:
-        "/MoonEx.jpeg",
+        "/Backend.jpeg",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
-        link:"https://moonex2.netlify.app"
+        "Backend RESTful API for YIBEE (mentioned above) used Mongodb , node.js and express.js for server and database management and integrated firebase in it to store media files like music and user images for secure and cloud data storage",
+      link: "https://yibee.onrender.com"
     },
     {
       id: "3",
       Image:
-        "/Yibee.jpeg",
+        "/Store.jpg"
+      ,
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
-        link:"https://yibee-frontend.vercel.app"
+        "A fully customizable online store with a custom  bill feature which keeps track of the amount of money being spent , saved and total discount on all purchases",
+      link: "https://fidgett.netlify.app"
     },
     {
       id: "4",
       Image:
         "/DevPortfolio.jpg",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
-        link:"https://ayushgairola6.github.io/Fron-End-portfolio-project/"
+        "A Front end portfolio project inspired from AWWWARDs features portfolio , used GSAP for all the animations and smooth scrolling , with black and white theme to give it a clean look",
+      link: "https://ayushgairola6.github.io/Fron-End-portfolio-project/"
     },
     {
       id: "5",
       Image:
-        "/YibeeOnrender.jpeg",
+        "/MoonEx.jpeg"
+      ,
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
-        link:"https://ayushgairola6.github.io/Working-website-project/"
+        "Design for a crypto exchange platform with color scheme and content matching it's theme and motive . Used GSAP for animation and dark color scheme with yellow elements to give it a accent of trust",
+      link: "https://moonex2.netlify.app/"
     },
     {
       id: "6",
       Image:
-        "/Store.jpg",
+        "/Earthling.jpeg"
+      ,
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
-        link:"https://fidgett.netlify.app"
+        "A platform to Spread awareness about environment protection , with sleek design and minimal animations to engage users and grab their attention . Tech Used:GSAP , react , tailwind",
+      link: "https://earthling.netlify.app"
     },
   ];
 
   return (
     <>
       <span className="text-center font-cosiTimes text-3xl flex items-center justify-center my-10 hover:underline">
-      <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">Our </span>  Projects
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 gradient-text">Our </span>  Projects
       </span>
       <section className="min-h-screen flex flex-wrap gap-6 p-4 justify-center">
         {projects.map((pro) => {

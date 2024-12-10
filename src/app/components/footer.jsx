@@ -12,11 +12,11 @@ const Footer = () => {
                 <FaXTwitter href="https://x.com/AyushGairo14362" />
                 <FaInstagram  />
             </div>
-            <h6 className="font-cosiTimes font-bold text-3xl"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">@Ayush</span></h6>
+            <h6 className="font-cosiTimes font-bold text-3xl"> <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 gradient-text">@Ayush</span></h6>
             <div className='flex  items-center justify-between py-2 px-12 w-72'>
-                <a className='hover:underline' href="">About</a>
-                <a className='hover:underline' href="">Services</a>
-                <a className='hover:underline' href="mailto:ayushgairola2002@gmail.com?subject=Hello&body=Hi i want to collaborate with you." >Contact</a>
+                <a className='hover:underline text-sm' href="">About</a>
+                <a className='hover:underline text-sm' href="">Services</a>
+                <a className='hover:underline text-sm' href="mailto:ayushgairola2002@gmail.com?subject=Hello&body=Hi i want to collaborate with you." >Contact</a>
             </div>
 
 
