@@ -25,9 +25,9 @@ const Hero = () => {
         <main className="   flex items-center justify-center  relative h-screen text-center">
           
           <div>
-          <h1 className="font-cosiAzure text-6xl sm:text-6xl md:text-8xl lg:text-9xl z-10 ">Your <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 ">Ideas</span>,
+          <h1 className="font-cosiAzure text-6xl sm:text-6xl md:text-8xl lg:text-9xl z-10 ">Your <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 gradient-text">Ideas</span>,
                 Our Expertise-</h1>
-             <h2 className="hover:underline  text-2xl mt-2 absolute right-6 font-cosiTimes">Building Digital Solutions That <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 ">inspire</span></h2>
+             <h2 className="hover:underline  text-2xl mt-2 absolute right-6 font-cosiTimes">Building Digital Solutions That <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 gradient-text">inspire</span></h2>
           </div>
            
 
