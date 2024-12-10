@@ -26,9 +26,9 @@ const Navbar = () => {
             <nav className="flex items-center justify-evenly font-cosiTimes  py-2">
                 <h1 className=" text-2xl logo">AyushGairola</h1>
 
-                <Link className='text-xs font-mono nav-item' href='/Contact'>Contact</Link>
-                <a className='text-xs font-mono nav-item' href="www.linkedin.com/in/ayush-gairola-7a536a327">LinkedIn</a>
-                <a className='text-xs font-mono nav-item' href="github.com/Ayushgairola6">Github</a>
+                <a className='text-xs font-mono nav-item' target='_blank' rel='noopener noreferrer' href='www.linkedin.com/in/ayush-gairola-7a536a327'>Contact</a>
+                <a className='text-xs font-mono nav-item' target='_blank' rel='noopener noreferrer'  href="www.linkedin.com/in/ayush-gairola-7a536a327">LinkedIn</a>
+                <a className='text-xs font-mono nav-item' target='_blank' rel='noopener noreferrer'  href="github.com/Ayushgairola6">Github</a>
 
             </nav>
 

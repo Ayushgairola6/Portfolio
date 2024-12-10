@@ -7,7 +7,7 @@ const ProjectDisplay = () => {
     {
       id: "1",
       Image:
-        "Earthling.jpeg",
+        "/Earthling.jpeg",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
         link:"https://earthling.netlify.app"
@@ -15,7 +15,7 @@ const ProjectDisplay = () => {
     {
       id: "2",
       Image:
-        "MoonEx.jpeg",
+        "/MoonEx.jpeg",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
         link:"https://moonex2.netlify.app"
@@ -23,7 +23,7 @@ const ProjectDisplay = () => {
     {
       id: "3",
       Image:
-        "Yibee.jpeg",
+        "/Yibee.jpeg",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
         link:"https://yibee-frontend.vercel.app"
@@ -31,7 +31,7 @@ const ProjectDisplay = () => {
     {
       id: "4",
       Image:
-        "DevPortfolio.jpg",
+        "/DevPortfolio.jpg",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
         link:"https://ayushgairola6.github.io/Fron-End-portfolio-project/"
@@ -39,7 +39,7 @@ const ProjectDisplay = () => {
     {
       id: "5",
       Image:
-        "YibeeOnrender.jpeg",
+        "/YibeeOnrender.jpeg",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
         link:"https://ayushgairola6.github.io/Working-website-project/"
@@ -47,7 +47,7 @@ const ProjectDisplay = () => {
     {
       id: "6",
       Image:
-        "Store.jpg",
+        "/Store.jpg",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint eligendi, modi voluptate ducimus maiores reiciendis possimus dolore hic id.",
         link:"https://fidgett.netlify.app"
