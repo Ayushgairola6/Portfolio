@@ -1,21 +1,46 @@
 import Image from "next/image";
-
+import me from '../../assets/me.jpg'
+import { FaExclamation } from "react-icons/fa";
 const About = () => {
     return <>
-        <div className="max-h-screen h-screen text-center p-4 ">
-            <div className='flex items-center justify-center mt-4 gap-6 flex-col'>
-                <h4 className='text-3xl font-cosiTimes'>ABOUT <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 gradient-text">ME</span></h4>
-                <Image className='h-32 w-32 rounded-full' height={128} width={128} src="/Myimage.png" alt="" />
-            </div>
-
-
-            <p className=" font-serif text-sm  m-auto p-6 md:text-lg"> Hi,I am Ayush Gairola, a passionate Full-Stack developer and UI/UX Designer dedicated to crafting seamless and visually stunning digital experiences and turning ideas into reality. With a strong foundation in both front-end and back-end-developement .I Bridge the gap between functionality and design to deliever user focused solutions that not only work flawlessly but also look amazing . Over the years I have honed my skills in technologies like JavaScript,React,Node.js while also mastering design tools like Figma and Adobe Xd . 
-                My approach is simple :I combine clean code , modern design , and strategic thinking to build websites and applications that drive results and make an impact.
-                Let us collaborate to create something extraordinary together! </p>
-
-
-
+        {/* <video className="absolute top-0  object-cover z-0 opacity-65 h-full" src='13495-248644905.mp4' muted autoPlay playsInline loop  /> */}
+        <div className="h-screen w-full bg-black text-white flex items-center justify-center">
+    {/* Inner container for padding and centering */}
+    <div className="max-w-4xl w-full px-6 md:px-12">
+      <div className="flex flex-col md:flex-row items-center md:items-start">
+        
+        {/* Avatar */}
+        <div className="flex-shrink-0">
+          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/20">
+            <Image
+              src={me}
+              alt="Ayush Gairola"
+              width={160}
+              height={160}
+              className="object-cover"
+              priority
+            />
+          </div>
         </div>
+
+        {/* Text */}
+        <div className="mt-6 md:mt-0 md:ml-10 flex-1 text-center md:text-left">
+          <h2 className="text-4xl font-cosiTimes font-bold mb-4 flex items-center justify-center gap-2">
+            ABOUT{" "}
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+              ME 
+            </span>
+            <FaExclamation size={25}/>
+          </h2>
+          <p className="font-serif text-base md:text-lg leading-relaxed">
+            Hi, I’m <strong>Ayush Gairola</strong>. I started in civil engineering but quickly realized I wanted to build end‑to‑end solutions—web development gave me that power.
+            <br /><br />
+            I love creating projects that help others and exploring monetization paths. Open source fascinates me because it unites passionate contributors to continuously refine ideas. My engineering background sharpened my problem‑solving mindset, which I bring to every feature, bug fix, and code review. I’m excited to keep pushing boundaries and crafting innovative solutions that make a real impact.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
     </>
 }
